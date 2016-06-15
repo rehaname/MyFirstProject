@@ -11,10 +11,18 @@ public class Rectangle extends Shape {
 
 	
 	
-	@Override
+@Override
 	public double area() {
-		// TODO Auto-generated method stub
 		return width*height;
+	}
+	
+
+	public int test(){
+		return 0;
+	}
+	
+	public String test(int a){
+		return "a";
 	}
 
 	@Override
