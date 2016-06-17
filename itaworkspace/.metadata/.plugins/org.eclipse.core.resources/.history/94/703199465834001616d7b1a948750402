@@ -1,0 +1,22 @@
+package test;
+
+public class testing {
+	
+	public static void main(String argv[]){
+		testing ms= new testing();
+		ms.amethod();
+		}
+	public void amethod(){
+		int k=10;
+		switch(k){
+		default: //Put the default at the bottom, not here
+		System.out.println("This is the default output");
+		break;
+		case 10:
+		System.out.println("ten");
+		case 20:
+		System.out.println("twenty");
+		break;
+		}
+
+}

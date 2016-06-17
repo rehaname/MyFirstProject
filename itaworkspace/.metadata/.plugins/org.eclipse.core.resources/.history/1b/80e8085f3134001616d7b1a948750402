@@ -1,0 +1,45 @@
+/**
+ * 
+ */
+package com.oocl.mnlbc.group3.test;
+
+import com.oocl.mnlbc.group3.util.Validators;
+
+/**
+ * @author yume
+ *
+ */
+public class ValidatorsTest {
+
+	/**
+	 * @throws java.lang.Exception
+	 */
+	@Before
+	public void setUp() throws Exception {
+	}
+
+	/**
+	 * @throws java.lang.Exception
+	 */
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	/**
+	 * Test method for {@link com.oocl.mnlbc.group3.util.Validators#checkEmail(java.lang.String)}.
+	 */
+	@Test
+	public void testCheckEmail() {
+		Validators  validate = new Validators();
+		assertEquals(true,validate.checkEmail("kanenpogi@gmail.com"));
+		assertEquals(false,validate.checkEmail("kanenpogicom"));
+	}
+
+	
+	@Test
+	public void testCheckPhone() {
+		Validators  validate = new Validators();
+		assertEquals(true, validate.checkPhone("09236109223"));
+		assertEquals(false, validate.checkPhone("hkjhkj"));
+	}
+}

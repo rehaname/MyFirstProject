@@ -1,0 +1,22 @@
+
+public class VolumeBall {
+	
+	public static final double PI =3.14159265358979323;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static double computeVolume(double radius){
+		
+		double volume=0;
+		
+		volume=(4/3)*PI;
+	
+		return volume;
+	}
+	
+
+
+}

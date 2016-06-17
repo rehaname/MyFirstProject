@@ -1,0 +1,12 @@
+import java.text.DateFormat;
+import java.util.Calendar;
+
+public class DateAppointment {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DateFormat dateToday;
+
+	}
+
+}

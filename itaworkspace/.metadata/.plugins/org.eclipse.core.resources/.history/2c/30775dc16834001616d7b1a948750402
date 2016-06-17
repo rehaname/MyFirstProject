@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class VolumeBall {
+	
+	public static final double PI =3.14159265358979323;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double radius;
+		
+		Scanner input = new Scanner(System.in);
+		radius=input.nextDouble();
+		computeVolume(radius);
+		
+
+	}
+	
+	public static double computeVolume(double radius){
+		
+		double volume=0;
+		
+		volume=(4/3)*PI*(Math.pow(radius, 3));
+	
+		return volume;
+	}
+	
+
+
+}

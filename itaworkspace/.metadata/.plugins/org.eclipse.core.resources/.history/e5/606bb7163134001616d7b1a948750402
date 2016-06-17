@@ -1,0 +1,10 @@
+package com.oocl.mnlbc.group3.test;
+
+public class ValidatorsTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

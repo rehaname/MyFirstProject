@@ -1,0 +1,29 @@
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.Scanner;
+
+public class MD5Encrypt {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		String toEncrypt;
+		toEncrypt= input.nextLine()
+		inputToStringBuffer();
+		
+	}
+	
+	public static void encryptInput(String sb) throws NoSuchAlgorithmException{
+		
+		MessageDigest md = MessageDigest.getInstance("MD5");
+	}
+	
+	public static void inputToStringBuffer(String input){
+
+		      StringBuffer sb = new StringBuffer("");
+		      sb.append(input);
+		      System.out.println(sb); 
+		     
+	}
+
+}
